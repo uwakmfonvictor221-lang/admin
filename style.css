@@ -16,8 +16,8 @@ align-items: center;
 }
 
 body{
-    background-color:blue;
-    font-family: sans-serif;
+    background-color:white;
+    font-family: "Playwrite IT Trad", cursive;
 }
 
 ul{
@@ -29,7 +29,7 @@ ul{
 .logo{
     font-size: 30px;
     font-size: bold;
-    font-family:"Roboto", sans-serif ;
+    font-family: "Playwrite IT Trad", cursive;
 }
 
 li a{
