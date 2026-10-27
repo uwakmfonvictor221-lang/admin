@@ -1,63 +1,54 @@
-* {
+*{
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
-}
-body{
-    background-color: white;
+    box-sizing: 0;
 }
 header{
-    background-color: #fffeff;
-    display: flex;
-    justify-content: space-between;
-    padding:  20px;
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-    align-items: center;
+    background-color:#fffeff;
+padding: 20px 20px;
+display:flex;
+justify-content: space-between;
+position:fixed;
+top: 0;
+left: 0;
+right: 0;
+align-items: center;
 }
-.logo{
-    font-size: 30px;
-     font-weight: bold;
-    font-family: "Rubik Storm", system-ui;
+
+body{
+    background-color:blue;
+    font-family: sans-serif;
 }
 
 ul{
     display: flex;
+    gap: 20px;
     list-style-type: none;
-    gap: 12px;
-    
 }
+
+.logo{
+    font-size: 30px;
+    font-size: bold;
+    font-family:"Roboto", sans-serif ;
+}
+
 li a{
     text-decoration: none;
     color: black;
     text-transform: capitalize;
-    font-family: "Playwrite AR Guides", cursive;
-    font-weight: bold;
-
+    font-family:"Roboto", sans-serif ;
+    font-size: 12px;
+    font-weight: 500;
 }
-.pot{
+
+.trans-btn{
     border: 0;
-    background-color: inherit;
-    font-weight: 20px;text-transform: capitalize;
-
+background-color: inherit;
 }
-.btl-container{
+
+.btn-content{
 display: flex;
 gap: 20px;
+text-transform: capitalize;
 }
-.plate{
-    border-radius: 20px;
-    padding: 10px;
-    border: 0;
-    background-color: #171715;
-    color: #fff;
-    font-weight: 550;
-
-}
-
-
-    
-
 
